@@ -1,4 +1,4 @@
-FROM    tiangolo/uwsgi-nginx-flask:flask
+FROM    danacr/uwsgi-nginx-flask-arm64
 
 RUN     apt-get update && \
         apt-get install default-libmysqlclient-dev -y && \
